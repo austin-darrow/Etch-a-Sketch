@@ -1,0 +1,21 @@
+.rowContainer {
+    display: flex;
+}
+
+.grid {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: minmax(10px, 2fr) 3fr;
+    grid-template-rows: minmax(10px, 2fr) 3fr;
+}
+
+.container {
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 800px;
+    max-height: 800px;
+}
+
+.hovered {
+    background-color: green;
+}
